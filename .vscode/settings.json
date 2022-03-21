@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.ejs": "html",
+        "*.tpp": "cpp",
+        "*.ipp": "cpp",
+        "sstream": "cpp"
+    },
+    "terminal.integrated.shell.windows": "cmd.exe",
+    "C_Cpp.errorSquiggles": "Disabled"
+}

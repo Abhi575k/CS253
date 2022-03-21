@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form">
+        <div class="tab-content">
+            <div id="login">
+                <h1>Login!</h1>
+    
+                <form action="/posts" method="post">
+    
+                    <div class="field-wrap">
+                        <label for="email">
+                            Email Address<span class="req">*</span>
+                        </label>
+                        <input type="email" placeholder="Enter Email" name="email" required autocomplete="off">
+                    </div>
+    
+                    <div class="field-wrap">
+                        <label for="password">
+                            Password<span class="req">*</span>
+                        </label>
+                        <input type="password" placeholder="Enter Password" name="password" required autocomplete="off" />
+                    </div>
+    
+                    <p class="para"><a href="forgot-password">Forgot
+                            Password?</a></p>
+    
+                    <button class="button button-block" type="submit">Login</button>
+    
+                </form>
+    
+            </div>
+    
+        </div><!-- tab-content -->
+    
+    </div>
+</body>
+</html>
+
