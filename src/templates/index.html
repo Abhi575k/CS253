@@ -4,25 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/example_chat.css">
-    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins"
+    rel="stylesheet"
+  />
+    <link rel="stylesheet" href="../static/index.css">
+    <title>Random chat App</title>
+    <!-- <style>
+      .attribution {
+        font-size: 20px;
+        text-align: center;
+        /* margin-bottom: 0px; */
+        color: rgb(11, 97, 68);
+      }
+      .attribution a {
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-size: 32px;
+      }
+    </style> -->
 </head>
 <body>
-    <div class="login-page">
-        <div class="form">
-          <form class="login-form" action="/post" method="post">
-            <input type="text" placeholder="name" name="name"/>
-            <input type="password" placeholder="password" name="password"/>
-            <input type="password" placeholder="confirm password" name="cpassword"/>
-            <input type="text" placeholder="email address" name="email"/>
-            <button type="submit">create</button>
+  <div class="landing">
 
-            <p class="message">Already registered? <a href="#">Sign In</a></p>
-          </form>
+    <img src="../static/images/logo.svg" class="logo" alt="Image" />
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-1">
+          <img
+            src="../static/images/illustration-mockups.svg"
+            alt="Image"
+            class="image"
+          />
+        </div>
+        <div class="col-lg-6 col-1">
+          <h1>Build The Community Your Fans Will Love</h1>
 
-          <a href="/posts">hello</a>
+          <p>
+            Huddle re-imagines the way we build communities. You have a voice,
+            but so does your audience. Create connections with your users as
+            you engage in genuine discussion.
+          </p>
+
+          <a class="button btn" href="/login">login</a>
+          <a class="button btn" href="/register">Register</a>
         </div>
       </div>
+    </div>
+    <!-- <footer>
+      <p class="attribution">
+      coded by
+        <a href="https://kkumar-gcc.github.io/huddle-landing-page/"
+          >Krishan Kumar</a
+        >
+      </p>
+    </footer> -->
+  </div>
 
 </body>
 </html>
