@@ -1,4 +1,4 @@
-# Random Chat Web App
+# RandomChat Web App
  
 ## Requirements
 
