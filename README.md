@@ -36,7 +36,7 @@ g++ example_x.cpp -lpthread
 ./a.out
 ```
 There should be printed log information on your command line then you can open web browser and go to the (http://0.0.0.0:Y)  `Ex: Y=18018`
-If everythings works fine the browser should render "landing page " and the rest of the page.
+If everythings works fine the browser should render `landing page` and the rest of the page.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
